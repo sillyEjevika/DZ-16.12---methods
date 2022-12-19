@@ -13,6 +13,8 @@ public class Main {
         printAppInfo(3, 2015);
         System.out.println();
         System.out.println("Задача №2");
+        int deliveryDistance = 95;
+        printCardDeliveryDays(deliveryDistance);
 
 
     }
@@ -63,6 +65,6 @@ public class Main {
         return deliveryDays;
     }
     private static void printCardDeliveryDays (int distance) {
-        System.out.println();
+        System.out.println("Потребуется дней: "+ calcCardDelivery(distance));
     }
 }
